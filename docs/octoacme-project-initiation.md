@@ -33,7 +33,7 @@ Stakeholders play a critical role throughout the project lifecycle. Clear expect
 - **Initiation**: Align on problem statement, goals, and success criteria; confirm commitment
 - **Planning**: Review and validate scope, provide input on priorities and constraints
 - **Execution**: Participate in demos, provide timely feedback, approve acceptance criteria
-- - **Release**: Review release notes, coordinate go-live timing, support launch activities
+- **Release**: Review release notes, coordinate go-live timing, support launch activities
 - **Retrospective**: Share feedback on collaboration effectiveness
 
 ### Stakeholder Feedback Channels
