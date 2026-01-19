@@ -35,11 +35,67 @@ Applies to all cross-functional projects that deliver product features, services
 4. Release: deploy, verify, announce.
 5. Close & Retrospective: capture learnings and next steps.
 
+### Project Lifecycle Diagram
+```
+┌─────────────┐
+│  Initiation │  ← Problem identified, stakeholders aligned
+└──────┬──────┘
+       │ Decision Gate: Approved?
+       ▼
+┌─────────────┐
+│   Planning  │  ← Scope defined, backlog created, timeline set
+└──────┬──────┘
+       │ Decision Gate: Ready to build?
+       ▼
+┌─────────────┐
+│  Execution  │  ← Iterative development, testing, demos
+└──────┬──────┘    (Loop back for additional iterations)
+       │ Decision Gate: Ready to ship?
+       ▼
+┌─────────────┐
+│   Release   │  ← Deploy to production, verify, announce
+└──────┬──────┘
+       │
+       ▼
+┌─────────────┐
+│Retrospective│  ← Capture learnings, action items, celebrate
+└─────────────┘
+```
+
+**Lifecycle Transition Checklist:**
+- Initiation → Planning: Sponsor approval, stakeholder alignment, team commitment
+- Planning → Execution: Backlog prioritized, Definition of Done agreed, kickoff complete
+- Execution → Release: All acceptance criteria met, tests passing, rollback plan ready
+- Release → Retrospective: Production deployment verified, stakeholders notified
+
 ## Communication Cadence
 - Weekly sync between PM + PdM
 - Twice-weekly standups for delivery team (or as agreed)
 - Monthly stakeholder updates
 - Ad-hoc escalations as needed
+
+## Cross-Timezone & Remote Collaboration
+OctoAcme teams operate across multiple timezones. To ensure effective collaboration:
+
+### Async Meeting Best Practices
+- Record all important meetings and share in the team channel
+- Use written agendas and async pre-reads to reduce meeting time
+- Document decisions immediately in the project tracker or README
+- Allow 24-48 hours for async responses before escalating
+- Use threaded discussions for context retention
+
+### Preferred Communication Tools
+- **Slack/Teams**: Real-time questions, quick updates, and daily standups
+- **GitHub Discussions/Issues**: Technical decisions, feature specs, and long-lived threads
+- **Confluence/Docs**: Documentation, project charters, and retrospectives
+- **Video calls**: Weekly syncs, planning sessions, and demos (always recorded)
+- **Email**: Formal stakeholder communications and approvals
+
+### Timezone Considerations
+- Rotate meeting times quarterly to share the inconvenience
+- Maintain at least 3-hour overlap for synchronous collaboration
+- Use "core hours" (e.g., 10 AM–2 PM in the most common timezone) for urgent matters
+- Tag messages with urgency level: 🔴 Urgent (same day), 🟡 Normal (24-48h), 🟢 Low priority (when you can)
 
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
